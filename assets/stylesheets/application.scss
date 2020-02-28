@@ -1,3 +1,5 @@
+@import "./cards";
+
 body {
   color: white;
   background-color: black;
@@ -19,6 +21,15 @@ body {
     border-radius: 4px;
     h3 {
       margin-top: 0;
+    }
+  }
+  .city {
+    padding: 10px 20px;
+    border: 1px solid white;
+
+    &.selected {
+      color: red;
+      border-color: red;
     }
   }
 }
